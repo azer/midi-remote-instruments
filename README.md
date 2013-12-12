@@ -4,7 +4,12 @@ MIDI instruments that you can play by sending messages remotely.
 
 ## Install
 
-Clone the repo and run `bud` to build `dist`
+```bash
+$ git clone git@github.com:azer/midi-remote-instruments.git
+$ cd midi-remote-instruments
+$ npm install
+$ bud
+```
 
 ## Usage
 
