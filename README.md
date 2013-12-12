@@ -20,3 +20,23 @@ window.postMessage({ midi: true, instrument: 'piano', note: 'do', delay: 0.5, oc
 </script>
 ```
 
+## Reference
+
+Each message consist of following parameters:
+
+* `midi`: Set is at always true. Required.
+* `instrument`: Any available instrument object. Example values: piano, guitar, drum. Required.
+* `note`: Either English or Neo-Latin Note. Example values: 'do', 'mi', 'a', 'c#'. Required.
+* `delay`: Delay playing the sound in given seconds. Default is `0`. 
+* `octave`: The value to specify octave of the sound. Default is `3`.
+* `velocity`: How hard the note hits. Default is 127.
+
+Instruments:
+
+* piano
+* trumpet
+* guitar
+* electricGuitar
+* drum
+* after
+
